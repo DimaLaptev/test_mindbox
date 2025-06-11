@@ -23,6 +23,7 @@ pip install geometry_calculator
 git clone <repository-url>
 cd geometry_calculator
 pip install -e .
+pip install -r requirements-dev.txt  # Dev зависимости
 ```
 
 ## 🚀 Быстрый старт
