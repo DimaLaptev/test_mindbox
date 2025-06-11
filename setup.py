@@ -9,10 +9,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="geometry_calculator",
-    version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="Библиотека для вычисления площадей геометрических фигур",
+    version="2.0.0",
+    author="Shipilov Dmitriy",
+    author_email="shipilenok1@gmail.com",
+    description="Современная библиотека для вычисления площадей геометрических фигур с поддержкой полиморфизма",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/yourusername/geometry_calculator",
@@ -20,6 +20,8 @@ setup(
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
@@ -28,8 +30,12 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Scientific/Engineering :: Mathematics",
+        "Topic :: Scientific/Engineering :: Physics",
         "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Education",
+        "Typing :: Typed",
     ],
     python_requires=">=3.7",
     install_requires=[
