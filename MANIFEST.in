@@ -1,5 +1,20 @@
+# Документация и конфигурация
 include README.md
 include requirements.txt
-include MANIFEST.in
+include requirements-dev.txt
+include .gitignore
+
+# Примеры
+include example.py
+include examples/*
+
+# Исходный код
+recursive-include geometry_calculator *.py
+
+# Тесты
 recursive-include tests *.py
-recursive-include geometry_calculator *.py 
+
+# Исключаем ненужные файлы
+global-exclude *.pyc
+global-exclude __pycache__/*
+prune venv 
